@@ -39,7 +39,7 @@ The instances are based on the Norwegian offshore logistics dataset from **E. E.
   - The columns in the facilities file are as follows: Name, Weekly Demand, Minimum Number of Visits, Maximum Number of Simultaneous Activities, Offload Rate, Minimum Delivery Quantity, Open Time Intervals in a Week, Fixed Service Time for a Visit.
   - The columns in the vehicles file are as follows: Type, Capacity, Maximum Available, Fixed Cost, Service at Base, Speed, Wait Cost at Base, Wait Cost at Facility, Travelling Cost, Service Cost, Delivery Cost.
 
-  - 
+  
 ## 📈 Computational Results
 
 Our experiments show that the proposed model can generate high-quality schedules for all instances within reasonable runtimes, despite the temporal and operational complexity.
