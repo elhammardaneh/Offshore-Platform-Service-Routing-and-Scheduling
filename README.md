@@ -24,18 +24,22 @@ The problem involves designing cost-effective vessel schedules to satisfy weekly
 The instances are based on the Norwegian offshore logistics dataset from **E. E. Halvorsen-Weare, K. Fagerholt, L. M. Non˚as, and B. E. Asbjørnslett. Optimal fleet composition and periodic routing of offshore supply vessels. European Journal of Operational Research, 223(2):508–517, 2012.**, with the following modifications:
 
 - **Demand scaling**: The Original weekly demands are tripled to induce complexity
-- **Unloading time modelling**: Per-unit unloading time is calculated by subtracting 1 hour of fixed lay time and dividing the remainder by the scaled demand
+- **Unloading time modelling**: Per-unit unloading time is calculated by subtracting 1 hour of fixed laytime and dividing the remainder by the scaled demand
 - **Operating hours**: Expanded at the base to allow flexible departure times
 - **Vessels**:
   - Two types (as in the original data), no limit on the number
-  - Added charter cost to explore fleet mix
+  - Added charter cost to explore the fleet mix
 - **Service capacity**:
   - Base: 3 simultaneous operations
   - Facilities: 1 operation at a time
 - **Travel & service time**:
   - Travel times: Rounded to the nearest hour
   - Unloading times: Rounded up to the next hour
+- **How to read the input files**:
+  - The columns in the facilities file are as follows: Name, Weekly Demand, Minimum Number of Visits, Maximum Number of Simultaneous Activities, Offload Rate, Minimum Delivery Quantity, Open Time Intervals in a Week, Fixed Service Time for a Visit.
+  - The columns in the vehicles file are as follows: Type, Capacity, Maximum Available, Fixed Cost, Service at Base, Speed, Wait Cost at Base, Wait Cost at Facility, Travelling Cost, Service Cost, Delivery Cost.
 
+  - 
 ## 📈 Computational Results
 
 Our experiments show that the proposed model can generate high-quality schedules for all instances within reasonable runtimes, despite the temporal and operational complexity.
