@@ -13,7 +13,7 @@ The problem involves designing cost-effective vessel schedules to satisfy weekly
 
 ## 📁 Repository Contents
 
-- `instances/` – 12 core benchmark instances, each with:
+- 12 core benchmark instances, based on two files 'facilities/' and 'vehicles/', each with:
   - A planning horizon of 1 week (168 hourly time points)
   - Modified demand and operating times to accommodate quantity-dependent unloading
 - `solutions/` – Optimal or near-optimal solutions obtained using our exact method
