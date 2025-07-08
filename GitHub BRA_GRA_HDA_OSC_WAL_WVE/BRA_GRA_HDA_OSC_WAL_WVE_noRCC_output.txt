@@ -1,0 +1,314 @@
+----------------------------------------------------------
+Solve auxMIP
+----------------------------------------------------------
+Run Time  0.8620891571044922 seconds
+Number of B&B nodes:  2936
+Objective Value Final LB:  196.32349211050365
+Objective Value Final UB:  196.3363999999998
+Number of Trips by Vessel  v1 :  7.0
+Number of Trips by Vessel  v2 :  1.0
+----------------------------------------------------------
+Decision Variables: 
+SigmaVv1  =  179.6563999999998
+SigmaVv2  =  16.68
+AggYv1,F00,BRA  =  2.0
+AggYv1,F00,GRA  =  1.0
+AggYv1,F00,HDA  =  1.0
+AggYv1,F00,OSC  =  2.0
+AggYv1,F00,WVE  =  1.0
+AggYv1,BRA,F00  =  1.0
+AggYv1,BRA,HDA  =  1.0
+AggYv1,GRA,F00  =  2.0
+AggYv1,HDA,F00  =  1.0
+AggYv1,HDA,GRA  =  1.0
+AggYv1,OSC,F00  =  1.000000000000032
+AggYv1,OSC,WAL  =  0.999999999999968
+AggYv1,WVE,F00  =  1.0
+AggYv1,WAL,F00  =  0.999999999999968
+AggYv2,F00,WVE  =  1.0
+AggYv2,WVE,F00  =  1.0
+AggXv1,F00,BRA  =  2200.0
+AggXv1,F00,GRA  =  1050.0000000000236
+AggXv1,F00,HDA  =  1100.0
+AggXv1,F00,OSC  =  2120.9999999999764
+AggXv1,F00,WVE  =  650.0
+AggXv1,BRA,HDA  =  436.0
+AggXv1,HDA,GRA  =  908.9999999999765
+AggXv1,OSC,WAL  =  734.9999999999765
+AggXv2,F00,WVE  =  700.0
+AggZv1,BRA  =  1764.0
+AggZv1,GRA  =  1959.0
+AggZv1,HDA  =  627.0
+AggZv1,OSC  =  1386.0
+AggZv1,WVE  =  650.0
+AggZv1,WAL  =  735.0
+AggZv2,WVE  =  700.0
+----------------------------------------------------------
+Solve MIP_Model_1
+----------------------------------------------------------
+Run Time  635.478509426117 seconds
+Number of B&B nodes:  0
+Objective Value Final LB:  2.0000000000000155
+Objective Value Final UB:  2.0000000000000155
+Number of Vessels  v1  Used in the Solution:  2
+Number of Vessels  v2  Used in the Solution:  0
+Number of Trips by Vessel  v1 :  8.00000000000469
+Number of Trips by Vessel  v2 :  6.6343759932359825e-12
+----------------------------------------------------------
+Decision variables: 
+Yv1,F00(16.0),F00(36.0)  =  1.0
+Yv1,F00(32.0),F00(38.0)  =  1.0
+Yv1,F00(60.0),F00(66.0)  =  1.0
+Yv1,F00(84.0),F00(90.0)  =  1.0
+Yv1,F00(106.0),F00(112.0)  =  1.0
+Yv1,F00(113.0),F00(133.0)  =  1.0000000000003355
+Yv1,F00(132.0),F00(138.0)  =  1.000000000000785
+Yv1,F00(156.0),F00(162.0)  =  1.0
+Yv1,BRA(78.0),BRA(80.0)  =  1.0
+Yv1,BRA(102.0),BRA(104.0)  =  1.0
+Yv1,BRA(138.0),BRA(151.0)  =  1.0
+Yv1,GRA(6.0),GRA(9.0)  =  1.0
+Yv1,GRA(54.0),GRA(57.0)  =  1.0
+Yv1,GRA(150.0),GRA(154.0)  =  1.0
+Yv1,HDA(11.0),HDA(14.0)  =  1.0
+Yv1,HDA(59.0),HDA(62.0)  =  1.0
+Yv1,HDA(156.0),HDA(158.0)  =  1.0
+Yv1,OSC(42.0),OSC(44.0)  =  1.0
+Yv1,OSC(105.0),OSC(107.0)  =  1.0
+Yv1,OSC(163.0),OSC(9.0)  =  1.0
+Yv1,WVE(42.0),WVE(46.0)  =  1.0000000000047204
+Yv1,WVE(116.0),WVE(118.0)  =  1.0
+Yv1,WAL(84.0),WAL(87.0)  =  1.0
+Yv1,F00(36.0),OSC(42.0)  =  1.0
+Yv1,F00(38.0),WVE(42.0)  =  1.0
+Yv1,F00(112.0),WVE(116.0)  =  1.0
+Yv1,F00(133.0),BRA(138.0)  =  1.0
+Yv1,F00(66.0),BRA(78.0)  =  1.0
+Yv1,F00(90.0),BRA(102.0)  =  1.0
+Yv1,F00(138.0),GRA(150.0)  =  1.000000000000785
+Yv1,F00(162.0),GRA(6.0)  =  1.0
+Yv1,BRA(80.0),WAL(84.0)  =  1.0
+Yv1,BRA(104.0),OSC(105.0)  =  1.0
+Yv1,BRA(151.0),F00(156.0)  =  1.0
+Yv1,GRA(9.0),HDA(11.0)  =  1.0
+Yv1,GRA(57.0),HDA(59.0)  =  1.0
+Yv1,GRA(154.0),HDA(156.0)  =  1.0
+Yv1,HDA(14.0),F00(32.0)  =  1.0
+Yv1,HDA(62.0),F00(80.0)  =  1.0
+Yv1,HDA(158.0),OSC(163.0)  =  1.0
+Yv1,OSC(9.0),F00(15.0)  =  1.0
+Yv1,OSC(107.0),F00(113.0)  =  1.0
+Yv1,OSC(44.0),GRA(54.0)  =  1.0
+Yv1,WVE(46.0),F00(56.0)  =  1.0
+Yv1,WVE(118.0),F00(128.0)  =  1.0
+Yv1,WAL(87.0),F00(104.0)  =  1.0
+yWv1,F00(15.0),F00(16.0)  =  1.0
+yWv1,F00(56.0),F00(57.0)  =  1.0
+yWv1,F00(57.0),F00(58.0)  =  1.0
+yWv1,F00(58.0),F00(59.0)  =  1.0
+yWv1,F00(59.0),F00(60.0)  =  1.0
+yWv1,F00(80.0),F00(81.0)  =  0.9999999999971279
+yWv1,F00(81.0),F00(82.0)  =  1.0
+yWv1,F00(82.0),F00(83.0)  =  1.0
+yWv1,F00(83.0),F00(84.0)  =  1.0
+yWv1,F00(104.0),F00(105.0)  =  1.0
+yWv1,F00(105.0),F00(106.0)  =  1.0
+yWv1,F00(128.0),F00(129.0)  =  1.0
+yWv1,F00(129.0),F00(130.0)  =  1.0
+yWv1,F00(130.0),F00(131.0)  =  1.0
+yWv1,F00(131.0),F00(132.0)  =  1.0
+Xv1,F00(36.0),OSC(42.0)  =  1100.0
+Xv1,F00(38.0),WVE(42.0)  =  1100.0
+Xv1,F00(112.0),WVE(116.0)  =  250.0000000000009
+Xv1,F00(133.0),BRA(138.0)  =  1100.000000001
+Xv1,F00(66.0),BRA(78.0)  =  1100.0
+Xv1,F00(90.0),BRA(102.0)  =  1068.2307692304335
+Xv1,F00(138.0),GRA(150.0)  =  1100.0000000008633
+Xv1,F00(162.0),GRA(6.0)  =  1002.7692307691091
+Xv1,BRA(80.0),WAL(84.0)  =  734.999999999664
+Xv1,BRA(104.0),OSC(105.0)  =  769.2307692307693
+Xv1,GRA(9.0),HDA(11.0)  =  357.14285714385716
+Xv1,GRA(57.0),HDA(59.0)  =  269.8571428580591
+Xv1,GRA(154.0),HDA(156.0)  =  230.43478261069617
+Xv1,HDA(158.0),OSC(163.0)  =  230.43478261069617
+Xv1,OSC(44.0),GRA(54.0)  =  713.6655518405028
+Xv1,BRA(78.0),BRA(80.0)  =  1100.0
+Xv1,BRA(102.0),BRA(104.0)  =  1068.2307692304335
+Xv1,BRA(138.0),BRA(151.0)  =  1100.0
+Xv1,GRA(6.0),GRA(9.0)  =  1002.7692307691091
+Xv1,GRA(54.0),GRA(57.0)  =  713.6655518405028
+Xv1,GRA(150.0),GRA(154.0)  =  1100.0
+Xv1,HDA(11.0),HDA(14.0)  =  357.14285714385716
+Xv1,HDA(59.0),HDA(62.0)  =  269.8571428580591
+Xv1,HDA(156.0),HDA(158.0)  =  230.43478261069617
+Xv1,OSC(42.0),OSC(44.0)  =  1100.0
+Xv1,OSC(105.0),OSC(107.0)  =  769.2307692307693
+Xv1,OSC(163.0),OSC(9.0)  =  230.43478261269615
+Xv1,WVE(42.0),WVE(46.0)  =  1100.0
+Xv1,WVE(116.0),WVE(118.0)  =  250.0000000000009
+Xv1,WAL(84.0),WAL(87.0)  =  734.999999999664
+Zv1,BRA(80.0)  =  365.00000000033594
+Zv1,BRA(104.0)  =  298.99999999966406
+Zv1,BRA(151.0)  =  1100.0
+Zv1,GRA(9.0)  =  645.6263736252519
+Zv1,GRA(57.0)  =  443.80840898244367
+Zv1,GRA(154.0)  =  869.5652173913044
+Zv1,HDA(14.0)  =  357.14285714385716
+Zv1,HDA(62.0)  =  269.8571428580591
+Zv1,OSC(9.0)  =  230.43478261269615
+Zv1,OSC(107.0)  =  769.2307692307693
+Zv1,OSC(44.0)  =  386.3344481594973
+Zv1,WVE(46.0)  =  1100.0
+Zv1,WVE(118.0)  =  249.9999999988174
+Zv1,WAL(87.0)  =  734.999999999664
+AggYv1,F00,BRA  =  2.9999999999980798
+AggYv1,F00,GRA  =  2.000000000001075
+AggYv1,F00,OSC  =  1.0000000000036895
+AggYv1,F00,WVE  =  2.0000000000025495
+AggYv1,BRA,F00  =  0.99999999999808
+AggYv1,BRA,OSC  =  1.0
+AggYv1,BRA,WAL  =  1.0
+AggYv1,GRA,HDA  =  3.0
+AggYv1,HDA,F00  =  2.0000000000017177
+AggYv1,HDA,OSC  =  1.0
+AggYv1,OSC,F00  =  2.0000000000036895
+AggYv1,OSC,GRA  =  1.0
+AggYv1,WVE,F00  =  2.0000000000025495
+AggYv1,WAL,F00  =  0.9999999999975772
+----------------------------------------------------------
+Solve MIP_Model_2
+----------------------------------------------------------
+Run Time  18001.139534711838 seconds
+Number of B&B nodes:  12063
+Objective Value Final LB:  528082.786528573
+Objective Value Final UB:  591205.73
+Optimality Gap:  10.676984384340619
+Number of Vessels  v1  Used in the Solution:  2
+Number of Vessels  v2  Used in the Solution:  0
+Number of Trips by Vessel  v1 :  8.0
+Number of Trips by Vessel  v2 :  0.0
+Number of Non-Wait Vessel Variables >= 2 by Vessel  v1 :  0
+Number of Non-Wait Vessel Variables >= 2 by Vessel  v2 :  0
+Number of Wait Vessel Variables >= 2 by Vessel  v1 :  0
+Number of Wait Vessel Variables >= 2 by Vessel  v2 :  0
+Number of Sites with 2 Deliveries Each Cycle:  5
+Number of Sites with 3 Deliveries Each Cycle:  0
+Number of Sites with 4 Deliveries Each Cycle:  0
+Number of Sites with 5 Deliveries Each Cycle:  0
+Number of Sites with 6 Deliveries Each Cycle:  0
+Number of Sites with 7 Deliveries Each Cycle:  0
+Number of Sites with 8 or More Deliveries Each Cycle:  0
+Fixed Cost Incurred by Vessel  v1  :  240000
+Fixed Cost Incurred by Vessel  v2  :  0
+Total Fixed Cost:  240000
+Variable Cost Incurred by Vessel  v1  :  351205.72999999986
+Variable Cost Incurred by Vessel  v2  :  0.0
+Total Variable Cost:  351205.72999999986
+----------------------------------------------------------
+CHECK RISK OF POTENTIAL TRANSFERS
+----------------------------------------------------------
+CHECK EMPTY DELIVERIES
+('Yv', '1', 'WAL', '63', 'WAL', '65')
+----------------------------------------------------------
+CHECK POTENTIAL TRANSFERS
+----------------------------------------------------------
+Decision variables: 
+Yv1,BRA(67.0),BRA(79.0)  =  1.0
+Yv1,BRA(138.0),BRA(151.0)  =  1.0
+Yv1,GRA(6.0),GRA(10.0)  =  1.0
+Yv1,GRA(150.0),GRA(153.0)  =  1.0
+Yv1,HDA(41.0),HDA(61.0)  =  1.0
+Yv1,OSC(104.0),OSC(107.0)  =  1.0
+Yv1,OSC(113.0),OSC(115.0)  =  1.0
+Yv1,WVE(42.0),WVE(45.0)  =  1.0
+Yv1,WVE(117.0),WVE(128.0)  =  1.0
+Yv1,WAL(36.0),WAL(39.0)  =  1.0
+Yv1,WAL(63.0),WAL(65.0)  =  1.0
+Yv1,WAL(108.0),WAL(110.0)  =  1.0
+Yv1,F00(8.0),F00(14.0)  =  1.0
+Yv1,F00(32.0),F00(38.0)  =  1.0
+Yv1,F00(56.0),F00(62.0)  =  1.0
+Yv1,F00(83.0),F00(89.0)  =  1.0
+Yv1,F00(84.0),F00(90.0)  =  1.0
+Yv1,F00(113.0),F00(133.0)  =  1.0
+Yv1,F00(132.0),F00(138.0)  =  1.0
+Yv1,F00(156.0),F00(162.0)  =  1.0
+Yv1,F00(14.0),WAL(36.0)  =  1.0
+Yv1,F00(38.0),WVE(42.0)  =  1.0
+Yv1,F00(62.0),BRA(67.0)  =  1.0
+Yv1,F00(89.0),WAL(108.0)  =  1.0
+Yv1,F00(133.0),BRA(138.0)  =  1.0
+Yv1,F00(90.0),OSC(104.0)  =  1.0
+Yv1,F00(138.0),GRA(150.0)  =  1.0
+Yv1,F00(162.0),GRA(6.0)  =  1.0
+Yv1,BRA(79.0),F00(84.0)  =  1.0
+Yv1,BRA(151.0),F00(156.0)  =  1.0
+Yv1,GRA(10.0),F00(32.0)  =  1.0
+Yv1,GRA(153.0),F00(8.0)  =  1.0
+Yv1,HDA(61.0),WAL(63.0)  =  1.0
+Yv1,OSC(107.0),F00(113.0)  =  1.0
+Yv1,OSC(115.0),WVE(117.0)  =  1.0
+Yv1,WVE(45.0),F00(56.0)  =  1.0
+Yv1,WVE(128.0),F00(132.0)  =  1.0
+Yv1,WAL(39.0),HDA(41.0)  =  1.0
+Yv1,WAL(65.0),F00(80.0)  =  1.0
+Yv1,WAL(110.0),OSC(113.0)  =  1.0
+yWv1,F00(80.0),F00(81.0)  =  1.0
+yWv1,F00(81.0),F00(82.0)  =  1.0
+yWv1,F00(82.0),F00(83.0)  =  1.0
+Xv1,F00(14.0),WAL(36.0)  =  1099.9999999999998
+Xv1,F00(38.0),WVE(42.0)  =  798.0000000000001
+Xv1,F00(62.0),BRA(67.0)  =  663.9999999999998
+Xv1,F00(89.0),WAL(108.0)  =  1100.0000000000002
+Xv1,F00(133.0),BRA(138.0)  =  1100.0000000000002
+Xv1,F00(90.0),OSC(104.0)  =  1099.9999999999857
+Xv1,F00(138.0),GRA(150.0)  =  859.0
+Xv1,F00(162.0),GRA(6.0)  =  1100.0
+Xv1,OSC(115.0),WVE(117.0)  =  551.9999999999999
+Xv1,WAL(39.0),HDA(41.0)  =  627.0000000000001
+Xv1,WAL(110.0),OSC(113.0)  =  837.9999999999999
+Xv1,BRA(67.0),BRA(79.0)  =  663.9999999999998
+Xv1,BRA(138.0),BRA(151.0)  =  1100.0000000000002
+Xv1,GRA(6.0),GRA(10.0)  =  1100.0
+Xv1,GRA(150.0),GRA(153.0)  =  859.0
+Xv1,HDA(41.0),HDA(61.0)  =  627.0000000000001
+Xv1,OSC(104.0),OSC(107.0)  =  1100.0000000000002
+Xv1,OSC(113.0),OSC(115.0)  =  837.9999999999999
+Xv1,WVE(42.0),WVE(45.0)  =  798.0000000000001
+Xv1,WVE(117.0),WVE(128.0)  =  551.9999999999999
+Xv1,WAL(36.0),WAL(39.0)  =  1099.9999999999998
+Xv1,WAL(108.0),WAL(110.0)  =  1100.0000000000002
+Zv1,BRA(79.0)  =  663.9999999999998
+Zv1,BRA(151.0)  =  1100.0000000000002
+Zv1,GRA(10.0)  =  1100.0
+Zv1,GRA(153.0)  =  859.0
+Zv1,HDA(61.0)  =  627.0000000000001
+Zv1,OSC(107.0)  =  1100.0000000000002
+Zv1,OSC(115.0)  =  286.0
+Zv1,WVE(45.0)  =  798.0000000000001
+Zv1,WVE(128.0)  =  551.9999999999999
+Zv1,WAL(39.0)  =  472.99999999999966
+Zv1,WAL(110.0)  =  262.00000000000034
+AggYv1,F00,BRA  =  2.0
+AggYv1,F00,GRA  =  2.0
+AggYv1,F00,OSC  =  1.0
+AggYv1,F00,WVE  =  1.0
+AggYv1,F00,WAL  =  2.0
+AggYv1,BRA,F00  =  2.0
+AggYv1,GRA,F00  =  2.0
+AggYv1,HDA,WAL  =  1.0
+AggYv1,OSC,F00  =  1.0
+AggYv1,OSC,WVE  =  1.0
+AggYv1,WVE,F00  =  2.0
+AggYv1,WAL,F00  =  1.0
+AggYv1,WAL,HDA  =  1.0
+AggYv1,WAL,OSC  =  1.0
+AggXv1,F00,BRA  =  1764.0
+AggXv1,F00,GRA  =  1959.0
+AggXv1,F00,OSC  =  1100.0
+AggXv1,F00,WVE  =  798.0000000000001
+AggXv1,F00,WAL  =  2200.0
+AggXv1,OSC,WVE  =  551.9999999999999
+AggXv1,WAL,HDA  =  627.0
+AggXv1,WAL,OSC  =  837.9999999999999
+----------------------------------------------------------
