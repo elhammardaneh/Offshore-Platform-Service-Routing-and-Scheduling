@@ -1,0 +1,167 @@
+Solve MIP_Model_2
+----------------------------------------------------------
+Run Time  18015.94867014885 seconds
+Number of B&B nodes:  537309
+Objective Value Final LB:  336575.05589125445
+Objective Value Final UB:  452313.69
+Optimality Gap:  25.58813422356187
+Number of Vessels  v1  Used in the Solution:  1
+Number of Vessels  v2  Used in the Solution:  1
+Number of Trips by Vessel  v1 :  4.0
+Number of Trips by Vessel  v2 :  1.0
+Number of Non-Wait Vessel Variables >= 2 by Vessel  v1 :  0
+Number of Non-Wait Vessel Variables >= 2 by Vessel  v2 :  0
+Number of Wait Vessel Variables >= 2 by Vessel  v1 :  0
+Number of Wait Vessel Variables >= 2 by Vessel  v2 :  0
+Number of Sites with 2 Deliveries Each Cycle:  4
+Number of Sites with 3 Deliveries Each Cycle:  0
+Number of Sites with 4 Deliveries Each Cycle:  0
+Number of Sites with 5 Deliveries Each Cycle:  0
+Number of Sites with 6 Deliveries Each Cycle:  0
+Number of Sites with 7 Deliveries Each Cycle:  0
+Number of Sites with 8 or More Deliveries Each Cycle:  0
+Fixed Cost Incurred by Vessel  v1  :  120000
+Fixed Cost Incurred by Vessel  v2  :  80000
+Total Fixed Cost:  200000
+Variable Cost Incurred by Vessel  v1  :  187116.20000000004
+Variable Cost Incurred by Vessel  v2  :  65197.490000000005
+Total Variable Cost:  252313.69000000006
+----------------------------------------------------------
+CHECK RISK OF POTENTIAL TRANSFERS
+----------------------------------------------------------
+CHECK EMPTY DELIVERIES
+('Yv', '2', 'TRW', '159', 'TRW', '13')
+----------------------------------------------------------
+CHECK POTENTIAL TRANSFERS
+----------------------------------------------------------
+Decision variables: 
+Yv1,GRA(6.0),GRA(9.0)  =  1.0
+Yv1,GRA(63.0),GRA(67.0)  =  1.0
+Yv1,PPI(92.0),PPI(94.0)  =  1.0
+Yv1,PPI(139.0),PPI(151.0)  =  1.0
+Yv1,TRW(109.0),TRW(112.0)  =  1.0
+Yv1,WAL(14.0),WAL(16.0)  =  1.0
+Yv1,F00(36.0),F00(42.0)  =  1.0
+Yv1,F00(82.0),F00(88.0)  =  1.0
+Yv1,F00(129.0),F00(135.0)  =  1.0
+Yv1,F00(155.0),F00(161.0)  =  1.0
+Yv1,F00(88.0),PPI(92.0)  =  1.0
+Yv1,F00(135.0),PPI(139.0)  =  1.0
+Yv1,F00(42.0),GRA(54.0)  =  1.0
+Yv1,F00(162.0),GRA(6.0)  =  1.0
+Yv1,GRA(10.0),WAL(14.0)  =  1.0
+Yv1,GRA(67.0),F00(80.0)  =  1.0
+Yv1,PPI(106.0),TRW(108.0)  =  1.0
+Yv1,PPI(114.0),F00(128.0)  =  1.0
+Yv1,PPI(151.0),F00(155.0)  =  1.0
+Yv1,TRW(112.0),PPI(114.0)  =  1.0
+Yv1,WAL(17.0),F00(32.0)  =  1.0
+Yv2,TRW(157.0),TRW(159.0)  =  1.0
+Yv2,TRW(159.0),TRW(13.0)  =  1.0
+Yv2,WAL(17.0),WAL(38.0)  =  1.0
+Yv2,F00(58.0),F00(64.0)  =  1.0
+Yv2,F00(64.0),F00(84.0)  =  1.0
+Yv2,F00(89.0),F00(109.0)  =  1.0
+Yv2,F00(130.0),TRW(156.0)  =  1.0
+Yv2,PPI(45.0),F00(56.0)  =  1.0
+Yv2,TRW(13.0),WAL(17.0)  =  1.0
+Yv2,WAL(38.0),PPI(44.0)  =  1.0
+yWv1,F00(32.0),F00(33.0)  =  1.0
+yWv1,F00(33.0),F00(34.0)  =  1.0
+yWv1,F00(34.0),F00(35.0)  =  1.0
+yWv1,F00(35.0),F00(36.0)  =  1.0
+yWv1,F00(80.0),F00(81.0)  =  1.0
+yWv1,F00(81.0),F00(82.0)  =  1.0
+yWv1,F00(128.0),F00(129.0)  =  1.0
+yWv1,F00(161.0),F00(162.0)  =  1.0
+yWv1,GRA(9.0),GRA(10.0)  =  1.0
+yWv1,GRA(54.0),GRA(55.0)  =  1.0
+yWv1,GRA(55.0),GRA(56.0)  =  1.0
+yWv1,GRA(56.0),GRA(57.0)  =  1.0
+yWv1,GRA(57.0),GRA(58.0)  =  1.0
+yWv1,GRA(58.0),GRA(59.0)  =  1.0
+yWv1,GRA(59.0),GRA(60.0)  =  1.0
+yWv1,GRA(60.0),GRA(61.0)  =  1.0
+yWv1,GRA(61.0),GRA(62.0)  =  1.0
+yWv1,GRA(62.0),GRA(63.0)  =  1.0
+yWv1,PPI(102.0),PPI(103.0)  =  1.0
+yWv1,PPI(103.0),PPI(104.0)  =  1.0
+yWv1,PPI(104.0),PPI(105.0)  =  1.0
+yWv1,PPI(105.0),PPI(106.0)  =  1.0
+yWv1,PPI(94.0),PPI(102.0)  =  1.0
+yWv1,TRW(108.0),TRW(109.0)  =  1.0
+yWv1,WAL(16.0),WAL(17.0)  =  1.0
+yWv2,F00(56.0),F00(57.0)  =  1.0
+yWv2,F00(57.0),F00(58.0)  =  1.0
+yWv2,F00(84.0),F00(85.0)  =  1.0
+yWv2,F00(85.0),F00(86.0)  =  1.0
+yWv2,F00(86.0),F00(87.0)  =  1.0
+yWv2,F00(87.0),F00(88.0)  =  1.0
+yWv2,F00(88.0),F00(89.0)  =  1.0
+yWv2,F00(109.0),F00(110.0)  =  1.0
+yWv2,F00(110.0),F00(111.0)  =  1.0
+yWv2,F00(111.0),F00(112.0)  =  1.0
+yWv2,F00(112.0),F00(113.0)  =  1.0
+yWv2,F00(113.0),F00(114.0)  =  1.0
+yWv2,F00(128.0),F00(129.0)  =  1.0
+yWv2,F00(129.0),F00(130.0)  =  1.0
+yWv2,F00(114.0),F00(128.0)  =  1.0
+yWv2,PPI(44.0),PPI(45.0)  =  1.0
+yWv2,TRW(156.0),TRW(157.0)  =  1.0
+Xv1,F00(88.0),PPI(92.0)  =  1100.0000000000002
+Xv1,F00(135.0),PPI(139.0)  =  1100.0
+Xv1,F00(42.0),GRA(54.0)  =  1100.0
+Xv1,F00(162.0),GRA(6.0)  =  928.9999999999998
+Xv1,GRA(10.0),WAL(14.0)  =  69.99999999999974
+Xv1,PPI(106.0),TRW(108.0)  =  700.0000000000005
+Xv1,GRA(6.0),GRA(9.0)  =  928.9999999999998
+Xv1,GRA(63.0),GRA(67.0)  =  1100.0
+Xv1,PPI(92.0),PPI(94.0)  =  1100.0000000000002
+Xv1,PPI(139.0),PPI(151.0)  =  1100.0
+Xv1,TRW(109.0),TRW(112.0)  =  700.0000000000006
+Xv1,WAL(14.0),WAL(16.0)  =  69.99999999999974
+Xv1,F00(36.0),F00(42.0)  =  1100.0
+Xv1,F00(82.0),F00(88.0)  =  1100.0000000000002
+Xv1,F00(129.0),F00(135.0)  =  1100.0
+Xv1,F00(155.0),F00(161.0)  =  928.9999999999998
+Xv2,F00(130.0),TRW(156.0)  =  700.0
+Xv2,TRW(13.0),WAL(17.0)  =  665.0000000000006
+Xv2,TRW(157.0),TRW(159.0)  =  700.0
+Xv2,TRW(159.0),TRW(13.0)  =  665.0000000000006
+Xv2,WAL(17.0),WAL(38.0)  =  665.0000000000006
+Xv2,F00(89.0),F00(109.0)  =  700.0
+xWv1,F00(161.0),F00(162.0)  =  928.9999999999998
+xWv1,GRA(9.0),GRA(10.0)  =  69.99999999999974
+xWv1,GRA(54.0),GRA(55.0)  =  1100.0
+xWv1,GRA(55.0),GRA(56.0)  =  1100.0
+xWv1,GRA(56.0),GRA(57.0)  =  1100.0
+xWv1,GRA(57.0),GRA(58.0)  =  1100.0
+xWv1,GRA(58.0),GRA(59.0)  =  1100.0
+xWv1,GRA(59.0),GRA(60.0)  =  1100.0
+xWv1,GRA(60.0),GRA(61.0)  =  1100.0
+xWv1,GRA(61.0),GRA(62.0)  =  1100.0
+xWv1,GRA(62.0),GRA(63.0)  =  1100.0
+xWv1,PPI(102.0),PPI(103.0)  =  700.0000000000005
+xWv1,PPI(103.0),PPI(104.0)  =  700.0000000000005
+xWv1,PPI(104.0),PPI(105.0)  =  700.0000000000005
+xWv1,PPI(105.0),PPI(106.0)  =  700.0000000000005
+xWv1,PPI(94.0),PPI(102.0)  =  700.0000000000005
+xWv1,TRW(108.0),TRW(109.0)  =  700.0000000000006
+xWv2,F00(109.0),F00(110.0)  =  700.0
+xWv2,F00(110.0),F00(111.0)  =  700.0
+xWv2,F00(111.0),F00(112.0)  =  700.0
+xWv2,F00(112.0),F00(113.0)  =  700.0
+xWv2,F00(113.0),F00(114.0)  =  700.0
+xWv2,F00(128.0),F00(129.0)  =  700.0
+xWv2,F00(129.0),F00(130.0)  =  700.0
+xWv2,F00(114.0),F00(128.0)  =  700.0
+xWv2,TRW(156.0),TRW(157.0)  =  700.0
+Zv1,GRA(9.0)  =  859.0
+Zv1,GRA(67.0)  =  1100.0
+Zv1,PPI(151.0)  =  1100.0
+Zv1,PPI(94.0)  =  399.9999999999998
+Zv1,TRW(112.0)  =  700.0000000000006
+Zv1,WAL(16.0)  =  69.99999999999974
+Zv2,TRW(159.0)  =  34.99999999999943
+Zv2,WAL(38.0)  =  665.0000000000006
+----------------------------------------------------------
