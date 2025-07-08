@@ -44,6 +44,19 @@ The instances are based on the Norwegian offshore logistics dataset from **E. E.
 
 Our experiments show that the proposed model can generate high-quality schedules for all instances within reasonable runtimes, despite the temporal and operational complexity.
 
+In the output file, the variables are interpreted as:
+- Yv1,F00(12.0),F00(18.0)  =  1.0 means that a vessel of type v1 starts a service at the base (called F00) at time 12 and finishes the service at time 18.
+- Yv1,BRA(163.0),BRA(7.0)  =  1.0 means that a vessel of type v1 starts a delivery service at facility BRA at time 163 and finishes the delivery at time 7.
+- Yv1,F00(38.0),BID(44.0)  =  1.0 means that a vessel of type v1 departs from the base (F00) at time 38 and arrives at facility BID at time 44.
+- yWv1,BRA(105.0),BRA(106.0)  =  1.0 means that a vessel of type v1 waits at facility BRA from time 105 to time 106.
+- yWv1,BRA(138.0),BRA(139.0)  =  2.0 means that two vessels of type v1 wait at facility BRA from time 138 to time 139.
+- Xv1,F00(38.0),BID(44.0)  =  1100.0 means that vessel(s) type v1 carry 1100 units (same unit of vessel capacity) from the base (F00) to facility BID at the specified times.
+- Zv1,BRA(108.0)  =  602.0 means that vessel(s) of type v1 have already started delivery of 602 units at facility BRA and depart at time 108.
+- AggYv1,F00,BID  =  2.0 means that in total two vessels of type v1 travel from the base (F00) to facility BID in the schedule.
+- AggXv1,F00,BID  =  2200.0 means that vessel(s) type v1 carry 2200 units from the base (F00) to facility BID in the schedule.
+
+
+
 ## 📬 Contact
 
 For questions, please contact:  
