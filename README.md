@@ -44,7 +44,12 @@ The instances are based on the Norwegian offshore logistics dataset from **E. E.
 
 Our experiments show that the proposed model can generate high-quality schedules for all instances within reasonable runtimes, despite the temporal and operational complexity.
 
-In the output file, the variables are interpreted as:
+In the output file, the results of up to three models are reported: 
+- The auxMIP results correspond to an initial analysis we conducted to improve computation time. However, following the enhancements introduced in Step 1 of our proposed methodology, this approach has become redundant. These results can be disregarded.
+- The MIP_Model_1 results correspond to Step 1 of our proposed methodology.
+- The MIP_Model_2 results correspond to the final solution obtained under various methods and contribution evaluations.
+
+The variables reported by the solutions of the models are interpreted as:
 - Yv1,F00(12.0),F00(18.0)  =  1.0 means that a vessel of type v1 starts a service at the base (called F00) at time 12 and finishes the service at time 18.
 - Yv1,BRA(163.0),BRA(7.0)  =  1.0 means that a vessel of type v1 starts a delivery service at facility BRA at time 163 and finishes the delivery at time 7.
 - Yv1,F00(38.0),BID(44.0)  =  1.0 means that a vessel of type v1 departs from the base (F00) at time 38 and arrives at facility BID at time 44.
