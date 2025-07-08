@@ -1,0 +1,347 @@
+----------------------------------------------------------
+Solve auxMIP
+----------------------------------------------------------
+Run Time  1.7443084716796875 seconds
+Number of B&B nodes:  1127
+Objective Value Final LB:  191.43994501881443
+Objective Value Final UB:  191.4586
+Number of Trips by Vessel  v1 :  8.0
+Number of Trips by Vessel  v2 :  0.0
+----------------------------------------------------------
+Decision Variables: 
+SigmaVv1  =  191.4586
+AggYv1,F00,BID  =  3.0
+AggYv1,F00,BRA  =  1.0
+AggYv1,F00,GRA  =  2.0
+AggYv1,F00,PPI  =  1.0
+AggYv1,F00,TRW  =  1.0
+AggYv1,BID,F00  =  1.0
+AggYv1,BID,BRA  =  1.0
+AggYv1,BID,WAL  =  1.0
+AggYv1,BRA,F00  =  1.0
+AggYv1,BRA,PPI  =  1.0
+AggYv1,GRA,F00  =  2.0
+AggYv1,PPI,F00  =  3.0
+AggYv1,TRW,PPI  =  1.0
+AggYv1,WAL,F00  =  1.0
+AggXv1,F00,BID  =  3300.0
+AggXv1,F00,BRA  =  1100.0
+AggXv1,F00,GRA  =  1959.0
+AggXv1,F00,PPI  =  1073.0
+AggXv1,F00,TRW  =  1100.0
+AggXv1,BID,BRA  =  726.0
+AggXv1,BID,WAL  =  735.0
+AggXv1,BRA,PPI  =  62.0
+AggXv1,TRW,PPI  =  365.0
+AggZv1,BID  =  1839.0
+AggZv1,BRA  =  1764.0
+AggZv1,GRA  =  1959.0
+AggZv1,PPI  =  1500.0
+AggZv1,TRW  =  735.0
+AggZv1,WAL  =  735.0
+----------------------------------------------------------
+Solve MIP_Model_1
+----------------------------------------------------------
+Run Time  20.807369470596313 seconds
+Number of B&B nodes:  0
+Objective Value Final LB:  2.0
+Objective Value Final UB:  2.0
+Number of Vessels  v1  Used in the Solution:  2
+Number of Vessels  v2  Used in the Solution:  0
+Number of Trips by Vessel  v1 :  8.0
+Number of Trips by Vessel  v2 :  0.0
+----------------------------------------------------------
+Decision variables: 
+Yv1,F00(14.0),F00(34.0)  =  1.0
+Yv1,F00(34.0),F00(40.0)  =  1.0
+Yv1,F00(59.0),F00(65.0)  =  1.0
+Yv1,F00(60.0),F00(66.0)  =  1.0
+Yv1,F00(104.0),F00(110.0)  =  1.0
+Yv1,F00(108.0),F00(114.0)  =  1.0
+Yv1,F00(152.0),F00(158.0)  =  1.0
+Yv1,F00(153.0),F00(159.0)  =  1.0
+Yv1,BID(6.0),BID(8.0)  =  1.0
+Yv1,BID(40.0),BID(42.0)  =  1.0
+Yv1,BID(81.0),BID(83.0)  =  1.0
+Yv1,BID(90.0),BID(92.0)  =  1.0
+Yv1,BRA(43.0),BRA(55.0)  =  1.0
+Yv1,BRA(78.0),BRA(80.0)  =  1.0
+Yv1,BRA(115.0),BRA(127.0)  =  1.0
+Yv1,BRA(136.0),BRA(138.0)  =  1.0
+Yv1,BRA(163.0),BRA(7.0)  =  1.0
+Yv1,GRA(14.0),GRA(17.0)  =  1.0
+Yv1,GRA(78.0),GRA(82.0)  =  1.0
+Yv1,GRA(89.0),GRA(91.0)  =  1.0
+Yv1,GRA(126.0),GRA(129.0)  =  1.0
+Yv1,PPI(44.0),PPI(55.0)  =  1.0
+Yv1,PPI(140.0),PPI(142.0)  =  1.0
+Yv1,PPI(163.0),PPI(166.0)  =  1.0
+Yv1,TRW(132.0),TRW(135.0)  =  1.0
+Yv1,WAL(86.0),WAL(88.0)  =  1.0
+Yv1,WAL(133.0),WAL(136.0)  =  1.0
+Yv1,F00(34.0),BID(40.0)  =  1.0
+Yv1,F00(40.0),PPI(44.0)  =  1.0
+Yv1,F00(65.0),BRA(78.0)  =  1.0
+Yv1,F00(110.0),BRA(115.0)  =  1.0
+Yv1,F00(158.0),BRA(163.0)  =  1.0
+Yv1,F00(159.0),PPI(163.0)  =  1.0
+Yv1,F00(66.0),GRA(78.0)  =  1.0
+Yv1,F00(114.0),GRA(126.0)  =  1.0
+Yv1,BID(8.0),F00(14.0)  =  1.0
+Yv1,BID(42.0),BRA(43.0)  =  1.0
+Yv1,BID(83.0),GRA(89.0)  =  1.0
+Yv1,BID(92.0),F00(104.0)  =  1.0
+Yv1,BRA(7.0),GRA(14.0)  =  1.0
+Yv1,BRA(55.0),F00(60.0)  =  1.0
+Yv1,BRA(80.0),BID(81.0)  =  1.0
+Yv1,BRA(127.0),TRW(132.0)  =  1.0
+Yv1,BRA(138.0),PPI(140.0)  =  1.0
+Yv1,GRA(17.0),F00(32.0)  =  1.0
+Yv1,GRA(82.0),WAL(86.0)  =  1.0
+Yv1,GRA(91.0),F00(104.0)  =  1.0
+Yv1,GRA(129.0),WAL(133.0)  =  1.0
+Yv1,PPI(55.0),F00(59.0)  =  1.0
+Yv1,PPI(142.0),F00(152.0)  =  1.0
+Yv1,PPI(166.0),BID(6.0)  =  1.0
+Yv1,TRW(135.0),BRA(136.0)  =  1.0
+Yv1,WAL(88.0),BID(90.0)  =  1.0
+Yv1,WAL(136.0),F00(152.0)  =  1.0
+yWv1,F00(32.0),F00(33.0)  =  1.0
+yWv1,F00(33.0),F00(34.0)  =  1.0
+yWv1,F00(104.0),F00(105.0)  =  1.0
+yWv1,F00(105.0),F00(106.0)  =  1.0
+yWv1,F00(106.0),F00(107.0)  =  1.0
+yWv1,F00(107.0),F00(108.0)  =  1.0
+yWv1,F00(152.0),F00(153.0)  =  1.0
+Xv1,F00(34.0),BID(40.0)  =  1100.0
+Xv1,F00(40.0),PPI(44.0)  =  909.090909090909
+Xv1,F00(65.0),BRA(78.0)  =  1022.909090909091
+Xv1,F00(110.0),BRA(115.0)  =  1100.0
+Xv1,F00(158.0),BRA(163.0)  =  1100.0
+Xv1,F00(159.0),PPI(163.0)  =  1100.0
+Xv1,F00(66.0),GRA(78.0)  =  1100.0
+Xv1,F00(114.0),GRA(126.0)  =  1100.0
+Xv1,BID(42.0),BRA(43.0)  =  699.9738522347218
+Xv1,BID(83.0),GRA(89.0)  =  219.8695652173912
+Xv1,BRA(7.0),GRA(14.0)  =  434.7826086956522
+Xv1,BRA(80.0),BID(81.0)  =  989.1003344481605
+Xv1,BRA(127.0),TRW(132.0)  =  1100.0
+Xv1,GRA(82.0),WAL(86.0)  =  230.43478260869563
+Xv1,GRA(129.0),WAL(133.0)  =  665.2173913043478
+Xv1,PPI(166.0),BID(6.0)  =  509.090909090909
+Xv1,TRW(135.0),BRA(136.0)  =  365.0
+Xv1,WAL(88.0),BID(90.0)  =  160.65217391304338
+Xv1,BID(6.0),BID(8.0)  =  509.090909090909
+Xv1,BID(40.0),BID(42.0)  =  1100.0
+Xv1,BID(81.0),BID(83.0)  =  989.1003344481605
+Xv1,BID(90.0),BID(92.0)  =  160.65217391304338
+Xv1,BRA(43.0),BRA(55.0)  =  699.9738522347218
+Xv1,BRA(78.0),BRA(80.0)  =  1022.909090909091
+Xv1,BRA(115.0),BRA(127.0)  =  1100.0
+Xv1,BRA(136.0),BRA(138.0)  =  365.0
+Xv1,BRA(163.0),BRA(7.0)  =  1100.0
+Xv1,GRA(14.0),GRA(17.0)  =  434.7826086956522
+Xv1,GRA(78.0),GRA(82.0)  =  1100.0
+Xv1,GRA(89.0),GRA(91.0)  =  219.8695652173912
+Xv1,GRA(126.0),GRA(129.0)  =  1100.0
+Xv1,PPI(44.0),PPI(55.0)  =  909.090909090909
+Xv1,PPI(163.0),PPI(166.0)  =  1100.0
+Xv1,TRW(132.0),TRW(135.0)  =  1100.0
+Xv1,WAL(86.0),WAL(88.0)  =  230.43478260869563
+Xv1,WAL(133.0),WAL(136.0)  =  665.2173913043478
+Zv1,BID(8.0)  =  509.090909090909
+Zv1,BID(42.0)  =  400.0261477652782
+Zv1,BID(83.0)  =  769.2307692307693
+Zv1,BID(92.0)  =  160.65217391304338
+Zv1,BRA(7.0)  =  665.2173913043478
+Zv1,BRA(55.0)  =  699.9738522347218
+Zv1,BRA(80.0)  =  33.808756460930454
+Zv1,BRA(138.0)  =  365.0
+Zv1,GRA(17.0)  =  434.7826086956522
+Zv1,GRA(82.0)  =  869.5652173913044
+Zv1,GRA(91.0)  =  219.8695652173912
+Zv1,GRA(129.0)  =  434.7826086956522
+Zv1,PPI(55.0)  =  909.090909090909
+Zv1,PPI(166.0)  =  590.909090909091
+Zv1,TRW(135.0)  =  735.0
+Zv1,WAL(88.0)  =  69.78260869565224
+Zv1,WAL(136.0)  =  665.2173913043478
+AggYv1,F00,BID  =  1.0
+AggYv1,F00,BRA  =  3.0
+AggYv1,F00,GRA  =  2.0
+AggYv1,F00,PPI  =  2.0
+AggYv1,BID,F00  =  2.0
+AggYv1,BID,BRA  =  1.0
+AggYv1,BID,GRA  =  1.0
+AggYv1,BRA,F00  =  1.0
+AggYv1,BRA,BID  =  1.0
+AggYv1,BRA,GRA  =  1.0
+AggYv1,BRA,PPI  =  1.0
+AggYv1,BRA,TRW  =  1.0
+AggYv1,GRA,F00  =  2.0
+AggYv1,GRA,WAL  =  2.0
+AggYv1,PPI,F00  =  2.0
+AggYv1,PPI,BID  =  1.0
+AggYv1,TRW,BRA  =  1.0
+AggYv1,WAL,F00  =  1.0
+AggYv1,WAL,BID  =  1.0
+----------------------------------------------------------
+Solve MIP_Model_2
+----------------------------------------------------------
+Run Time  18001.210034370422 seconds
+Number of B&B nodes:  19956
+Objective Value Final LB:  541146.7698584057
+Objective Value Final UB:  577874.5
+Optimality Gap:  6.3556585628184505
+Number of Vessels  v1  Used in the Solution:  2
+Number of Vessels  v2  Used in the Solution:  0
+Number of Trips by Vessel  v1 :  8.0
+Number of Trips by Vessel  v2 :  0.0
+Number of Non-Wait Vessel Variables >= 2 by Vessel  v1 :  0
+Number of Non-Wait Vessel Variables >= 2 by Vessel  v2 :  0
+Number of Wait Vessel Variables >= 2 by Vessel  v1 :  0
+Number of Wait Vessel Variables >= 2 by Vessel  v2 :  0
+Number of Sites with 2 Deliveries Each Cycle:  2
+Number of Sites with 3 Deliveries Each Cycle:  1
+Number of Sites with 4 Deliveries Each Cycle:  1
+Number of Sites with 5 Deliveries Each Cycle:  0
+Number of Sites with 6 Deliveries Each Cycle:  0
+Number of Sites with 7 Deliveries Each Cycle:  0
+Number of Sites with 8 or More Deliveries Each Cycle:  0
+Fixed Cost Incurred by Vessel  v1  :  240000
+Fixed Cost Incurred by Vessel  v2  :  0
+Total Fixed Cost:  240000
+Variable Cost Incurred by Vessel  v1  :  337874.5
+Variable Cost Incurred by Vessel  v2  :  0.0
+Total Variable Cost:  337874.5
+----------------------------------------------------------
+CHECK RISK OF POTENTIAL TRANSFERS
+Risk of Product Exchange by Vessel  v1  at Node :  BRA(136.0)
+----------------------------------------------------------
+CHECK EMPTY DELIVERIES
+----------------------------------------------------------
+CHECK POTENTIAL TRANSFERS
+[('Yv', '1', 'BRA', '136', 'BRA', '138'), ('yWv', '1', 'BRA', '136', 'BRA', '137')]
+[('Yv', '1', 'BRA', '138', 'BRA', '140'), ('Yv', '1', 'BRA', '138', 'F00', '152')]
+----------------------------------------------------------
+Decision variables: 
+Yv1,BID(6.0),BID(8.0)  =  1.0
+Yv1,BID(41.0),BID(43.0)  =  1.0
+Yv1,BID(102.0),BID(105.0)  =  1.0
+Yv1,BID(126.0),BID(128.0)  =  1.0
+Yv1,BRA(6.0),BRA(8.0)  =  1.0
+Yv1,BRA(136.0),BRA(138.0)  =  1.0
+Yv1,BRA(138.0),BRA(140.0)  =  1.0
+Yv1,GRA(54.0),GRA(57.0)  =  1.0
+Yv1,GRA(78.0),GRA(82.0)  =  1.0
+Yv1,PPI(42.0),PPI(45.0)  =  1.0
+Yv1,PPI(162.0),PPI(165.0)  =  1.0
+Yv1,TRW(132.0),TRW(135.0)  =  1.0
+Yv1,WAL(12.0),WAL(15.0)  =  1.0
+Yv1,F00(15.0),F00(35.0)  =  1.0
+Yv1,F00(32.0),F00(38.0)  =  1.0
+Yv1,F00(60.0),F00(66.0)  =  1.0
+Yv1,F00(80.0),F00(86.0)  =  1.0
+Yv1,F00(106.0),F00(112.0)  =  1.0
+Yv1,F00(111.0),F00(131.0)  =  1.0
+Yv1,F00(152.0),F00(158.0)  =  1.0
+Yv1,F00(153.0),F00(159.0)  =  1.0
+Yv1,F00(35.0),BID(41.0)  =  1.0
+Yv1,F00(38.0),PPI(42.0)  =  1.0
+Yv1,F00(86.0),BID(92.0)  =  1.0
+Yv1,F00(112.0),BID(126.0)  =  1.0
+Yv1,F00(131.0),BRA(136.0)  =  1.0
+Yv1,F00(158.0),PPI(162.0)  =  1.0
+Yv1,F00(159.0),BID(6.0)  =  1.0
+Yv1,F00(66.0),GRA(78.0)  =  1.0
+Yv1,BID(8.0),WAL(12.0)  =  1.0
+Yv1,BID(43.0),GRA(54.0)  =  1.0
+Yv1,BID(105.0),F00(111.0)  =  1.0
+Yv1,BID(128.0),TRW(132.0)  =  1.0
+Yv1,BRA(8.0),F00(13.0)  =  1.0
+Yv1,BRA(138.0),F00(152.0)  =  1.0
+Yv1,BRA(140.0),F00(152.0)  =  1.0
+Yv1,GRA(57.0),F00(80.0)  =  1.0
+Yv1,GRA(82.0),F00(104.0)  =  1.0
+Yv1,PPI(45.0),F00(56.0)  =  1.0
+Yv1,PPI(165.0),BRA(6.0)  =  1.0
+Yv1,TRW(135.0),BRA(136.0)  =  1.0
+Yv1,WAL(15.0),F00(32.0)  =  1.0
+yWv1,F00(13.0),F00(14.0)  =  1.0
+yWv1,F00(14.0),F00(15.0)  =  1.0
+yWv1,F00(56.0),F00(57.0)  =  1.0
+yWv1,F00(57.0),F00(58.0)  =  1.0
+yWv1,F00(58.0),F00(59.0)  =  1.0
+yWv1,F00(59.0),F00(60.0)  =  1.0
+yWv1,F00(104.0),F00(105.0)  =  1.0
+yWv1,F00(105.0),F00(106.0)  =  1.0
+yWv1,F00(152.0),F00(153.0)  =  1.0
+yWv1,BID(92.0),BID(102.0)  =  1.0
+yWv1,BRA(136.0),BRA(137.0)  =  1.0
+yWv1,BRA(137.0),BRA(138.0)  =  1.0
+Xv1,F00(35.0),BID(41.0)  =  1100.0
+Xv1,F00(38.0),PPI(42.0)  =  909.090909090909
+Xv1,F00(86.0),BID(92.0)  =  1100.0
+Xv1,F00(112.0),BID(126.0)  =  1100.0
+Xv1,F00(131.0),BRA(136.0)  =  1033.474308300395
+Xv1,F00(158.0),PPI(162.0)  =  1100.0
+Xv1,F00(159.0),BID(6.0)  =  1100.0
+Xv1,F00(66.0),GRA(78.0)  =  1089.434782608696
+Xv1,BID(8.0),WAL(12.0)  =  735.0000000000001
+Xv1,BID(43.0),GRA(54.0)  =  869.565217391304
+Xv1,BID(128.0),TRW(132.0)  =  956.434782608696
+Xv1,PPI(165.0),BRA(6.0)  =  509.090909090909
+Xv1,TRW(135.0),BRA(136.0)  =  221.43478260869597
+Xv1,BID(6.0),BID(8.0)  =  1100.0
+Xv1,BID(41.0),BID(43.0)  =  1100.0
+Xv1,BID(102.0),BID(105.0)  =  1100.0
+Xv1,BID(126.0),BID(128.0)  =  1100.0
+Xv1,BRA(6.0),BRA(8.0)  =  509.090909090909
+Xv1,BRA(136.0),BRA(138.0)  =  485.6783216783217
+Xv1,BRA(138.0),BRA(140.0)  =  769.2307692307693
+Xv1,GRA(54.0),GRA(57.0)  =  869.565217391304
+Xv1,GRA(78.0),GRA(82.0)  =  1089.434782608696
+Xv1,PPI(42.0),PPI(45.0)  =  909.090909090909
+Xv1,PPI(162.0),PPI(165.0)  =  1100.0
+Xv1,TRW(132.0),TRW(135.0)  =  956.434782608696
+Xv1,WAL(12.0),WAL(15.0)  =  735.0000000000001
+xWv1,BID(92.0),BID(102.0)  =  1100.0
+xWv1,BRA(136.0),BRA(137.0)  =  769.2307692307693
+xWv1,BRA(137.0),BRA(138.0)  =  769.2307692307693
+Zv1,BID(8.0)  =  364.9999999999999
+Zv1,BID(43.0)  =  230.43478260869597
+Zv1,BID(105.0)  =  1100.0
+Zv1,BID(128.0)  =  143.56521739130403
+Zv1,BRA(8.0)  =  509.090909090909
+Zv1,BRA(138.0)  =  485.6783216783217
+Zv1,BRA(140.0)  =  769.2307692307693
+Zv1,GRA(57.0)  =  869.565217391304
+Zv1,GRA(82.0)  =  1089.434782608696
+Zv1,PPI(45.0)  =  909.090909090909
+Zv1,PPI(165.0)  =  590.909090909091
+Zv1,TRW(135.0)  =  735.0
+Zv1,WAL(15.0)  =  735.0000000000001
+AggYv1,F00,BID  =  4.0
+AggYv1,F00,BRA  =  1.0
+AggYv1,F00,GRA  =  1.0
+AggYv1,F00,PPI  =  2.0
+AggYv1,BID,F00  =  1.0
+AggYv1,BID,GRA  =  1.0
+AggYv1,BID,TRW  =  1.0
+AggYv1,BID,WAL  =  1.0
+AggYv1,BRA,F00  =  3.0
+AggYv1,GRA,F00  =  2.0
+AggYv1,PPI,F00  =  1.0
+AggYv1,PPI,BRA  =  1.0
+AggYv1,TRW,BRA  =  1.0
+AggYv1,WAL,F00  =  1.0
+AggXv1,F00,BID  =  4400.0
+AggXv1,F00,BRA  =  1033.474308300395
+AggXv1,F00,GRA  =  1089.434782608696
+AggXv1,F00,PPI  =  2009.090909090909
+AggXv1,BID,GRA  =  869.565217391304
+AggXv1,BID,TRW  =  956.434782608696
+AggXv1,BID,WAL  =  735.0000000000001
+AggXv1,PPI,BRA  =  509.090909090909
+AggXv1,TRW,BRA  =  221.43478260869597
+----------------------------------------------------------
